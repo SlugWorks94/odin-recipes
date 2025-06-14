@@ -13,8 +13,9 @@
 }
 
 body {
-  max-width:1400px;
-  background-color:whitesmoke;
+  max-width: 1400px;
+  background-color: whitesmoke;
+  margin: auto;
 }
 
 h1 {
@@ -31,15 +32,65 @@ h1 {
 }
 
 .fauxNav {
+  width: 75%;
+  text-align: center;
   list-style: none;
   margin: 20px auto;
-  display: inline;
+ /* display: inline; */
 }
 
 .fauxNav li {
-  display: inline;
+  display: inline-block;
 }
 
+/*
 a {
   text-decoration: none;
+}
+*/
+
+.recipeContainer {
+  max-width: 800px;
+  margin: auto;
+}
+
+.recipeHead {
+  max-width: 75%;
+  text-align: center;
+  margin: 10px auto;
+}
+
+figure {
+  float: right;
+  display: flex;
+  flex-flow: column;
+  width: 250px;
+  border: 2px solid #ccc;
+  border-radius: 5%;
+  margin: 10px 10px;
+  padding: 5px;
+}
+
+img {
+  border-radius: 10px 10px 0px 0px;
+  padding: 0px;
+}
+
+figcaption {
+  color: #fff;
+  padding: 4px;
+  font-style: italic;
+  font-size: 10px;
+  background-color: #222;
+  text-align: center;
+  border-radius: 0px 0px 10px 10px;
+  margin: 0px;
+}
+
+figure:last-of-type {
+  clear: both;
+}
+
+h2 {
+  text-decoration: underline;
 }
