@@ -1,0 +1,45 @@
+/* CSS Style */
+
+/* For Testing */
+* {
+  border: 2px solid lightblue;
+  padding: 2px;
+}
+
+* {
+  margin: 0px;
+  font-family: Noto, Verdana, Helvetica, sans-serif;
+  color: #7a7a7a;
+}
+
+body {
+  max-width:1400px;
+  background-color:whitesmoke;
+}
+
+h1 {
+  color: #000;
+  font-weight: 600;
+}
+
+.navHead {
+  margin: 300px auto;
+}
+
+.centeredHeadline {
+  text-align: center;
+}
+
+.fauxNav {
+  list-style: none;
+  margin: 20px auto;
+  display: inline;
+}
+
+.fauxNav li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+}
