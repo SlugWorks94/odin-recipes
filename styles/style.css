@@ -1,10 +1,10 @@
 /* CSS Style */
 
-/* For Testing */
-* {
+ /* For Testing  * {
   border: 2px solid lightblue;
   padding: 2px;
-}
+} */
+
 
 * {
   margin: 0px;
@@ -13,9 +13,7 @@
 }
 
 body {
-  max-width: 1400px;
   background-color: whitesmoke;
-  margin: auto;
 }
 
 h1 {
@@ -24,7 +22,11 @@ h1 {
 }
 
 .navHead {
-  margin: 300px auto;
+  width: 800px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .centeredHeadline {
@@ -32,22 +34,15 @@ h1 {
 }
 
 .fauxNav {
-  width: 75%;
-  text-align: center;
   list-style: none;
-  margin: 20px auto;
- /* display: inline; */
+  text-align: center;
+  padding: 0px;
 }
 
 .fauxNav li {
   display: inline-block;
+  margin: 20px 20px;
 }
-
-/*
-a {
-  text-decoration: none;
-}
-*/
 
 .recipeContainer {
   max-width: 800px;
@@ -65,9 +60,8 @@ figure {
   display: flex;
   flex-flow: column;
   width: 250px;
-  border: 2px solid #ccc;
   border-radius: 5%;
-  margin: 10px 10px;
+  margin: 0px 10px;
   padding: 5px;
 }
 
@@ -93,4 +87,16 @@ figure:last-of-type {
 
 h2 {
   text-decoration: underline;
+}
+
+.recipeListItem {
+  margin-left: 20px;
+}
+
+.linkHome {
+  display: block;
+}
+
+.linkHome, p, h2 {
+  margin: 15px;
 }
